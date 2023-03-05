@@ -1,0 +1,36 @@
+a=3000 #monitor
+b=1000 #keyboard
+c=700 #mouse
+d=4000 #CPU
+
+
+
+
+A=int(input("Enter the quantity of monitor: "))
+B=int(input("Enter the quantity of keyboard: "))
+C=int(input("Enter the quantity of mouse: "))
+D=int(input("Enter the quantity of CPU: "))
+    
+def monitor():
+    E=a*A
+    #print("Total amount of monitor is : ",E)
+    return E
+
+def keyboard():
+    F=b*B
+    return F
+    #print("Total amount of keyboard is : ",F)
+
+def mouse():
+    G=c*C
+    return G
+    #print("Total amount of mouse is : ",G)
+
+def cpu():
+    H=d*D
+    return H
+    #print("Total amount of CPU is : ",H)
+
+def Totalcost():
+    I=monitor()+keyboard()+mouse()+cpu()
+    print("Total amount of All Equipments are : ",I)
